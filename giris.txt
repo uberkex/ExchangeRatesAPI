@@ -1,0 +1,14 @@
+Kullandığımız web sitesi:
+exchangesratesapi.io 
+
+Base olarak doları seçiyoruz : https://api.exchangeratesapi.io/latest?base=USD
+
+
+Proje arayüzünde miktarımızı giricez ve Para birimlerini seçicez
+
+input alanımız var buraya sadece number yazabiliyoruz. Buradaki değer değiştikçe dinamik olarak paramızı çeviricez
+
+Seçilen para birimine göre değişimler olacak ve anlık olarak sonuç'a yazdırıcaz.
+Para birimini seçtiğimiz zaman da aşağıdaki metinde para birimine göre değişecek.
+
+Sonuç inputumuz readonly yani sadece burraya değer geliyor bunu değiştiremiyoruz.
